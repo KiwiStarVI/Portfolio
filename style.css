@@ -111,3 +111,8 @@ footer>span{font-size:9px;color:var(--muted)}
   .profile-facts-list dd{font-size:13px}
 }
 @media(min-width:721px) and (max-width:1000px){.profile-grid{grid-template-columns:1fr 1fr}.profile-story{grid-column:1/-1}}
+
+/* Pin the star to the O glyph so it stays centered at every screen size. */
+.port-o{position:relative;display:inline-block}
+.cover-star{position:absolute;z-index:2;left:50%;top:50%;display:grid;place-items:center;width:1.06em;height:1.06em;font-size:.72em;line-height:1;color:var(--acid);text-shadow:0 0 12px #eaff00a8,0 0 30px #eaff0070;-webkit-text-stroke:1.5px var(--text);transform:translate(-50%,-50%) rotate(-8deg);animation:star-pulse 3s ease-in-out infinite;pointer-events:none}
+@keyframes star-pulse{0%,100%{scale:1;filter:drop-shadow(0 0 4px #eaff0080)}50%{scale:1.035;filter:drop-shadow(0 0 10px #eaff00)}}
