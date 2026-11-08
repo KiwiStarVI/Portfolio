@@ -31,7 +31,7 @@ function escapeHtml(value = "") {
 
 function addRevealAnimations() {
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const elements = document.querySelectorAll(".section-head, .about-grid, .skill-row, .experience-row, .project-card, .contact-main, .socials");
+  const elements = document.querySelectorAll(".section-head, .profile-grid, .profile-card, .portrait-stage, .skill-row, .experience-row, .project-card, .contact-main, .socials");
   if (reduceMotion || !("IntersectionObserver" in window)) {
     elements.forEach((element) => element.classList.add("is-visible"));
     return;
