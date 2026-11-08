@@ -78,6 +78,21 @@ footer>span{font-size:9px;color:var(--muted)}
 .profile-facts-list dd{margin:0;text-align:right;font-size:14px;font-weight:400;line-height:1.6}
 .profile-tools{padding-top:20px}
 .profile-tools .skill-tags{justify-content:flex-start;margin-top:11px}
+.profile-grid{grid-template-columns:1.04fr .94fr .78fr;gap:14px}
+.profile-card{padding:26px 24px;border-radius:4px 20px 4px 20px}
+.profile-story{background:linear-gradient(145deg,color-mix(in srgb,var(--panel) 88%,#58e1d2 12%),var(--panel) 58%)}
+.profile-facts{border-top:2px solid var(--acid);border-radius:20px 4px 20px 4px}
+.profile-hobbies{background:linear-gradient(155deg,color-mix(in srgb,var(--panel) 90%,#ff5579 10%),var(--panel) 70%);border-radius:20px 20px 4px 20px}
+.profile-hobbies h3{font-size:23px;font-weight:400;margin:23px 0 7px}
+.hobby-intro{font-size:12px;line-height:1.8;color:var(--muted);margin:0 0 20px}
+.hobby-list{list-style:none;padding:0;margin:0;position:relative;z-index:1}
+.hobby-list li{display:flex;align-items:baseline;gap:10px;padding:11px 0;border-top:1px solid var(--line);font-size:13px}
+.hobby-list li span{font:9px 'IBM Plex Mono',monospace;color:var(--pink)}
+.hobby-mark{position:absolute;right:15px;bottom:9px;font-size:60px;line-height:1;color:#ff557914;pointer-events:none}
+.cover-star{left:.58em;top:-.12em;font-size:1.12em;line-height:1;color:var(--acid);text-shadow:0 0 10px #eaff00,0 0 35px #eaff00ad,0 0 68px #eaff005e;transform:rotate(-12deg);-webkit-text-stroke:1px #fff7}
+.cover-star{animation:star-glint 3.4s ease-in-out infinite,star-pulse 2.6s ease-in-out infinite}
+.sharp-note{max-width:620px;margin:9px 0 0;color:var(--muted);font-size:11px;line-height:1.8}
+@keyframes star-pulse{0%,100%{filter:drop-shadow(0 0 1px #eaff00)}50%{filter:drop-shadow(0 0 12px #eaff00)}}
 @keyframes star-glint{0%,100%{scale:.9;rotate:-7deg;opacity:.7}50%{scale:1.13;rotate:9deg;opacity:1}}
 @keyframes halo-breathe{0%,100%{scale:.96;opacity:.75}50%{scale:1.04;opacity:1}}
 @media(max-width:720px){
@@ -94,3 +109,4 @@ footer>span{font-size:9px;color:var(--muted)}
   .profile-facts-list>div{grid-template-columns:100px 1fr;gap:10px;padding:13px 0}
   .profile-facts-list dd{font-size:13px}
 }
+@media(min-width:721px) and (max-width:1000px){.profile-grid{grid-template-columns:1fr 1fr}.profile-story{grid-column:1/-1}}
