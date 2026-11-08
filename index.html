@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10100d">
+  <meta name="description" content="พอร์ตโฟลิโอของ Worarit Sunawong (Gew) นักศึกษาเทคโนโลยีสารสนเทศและการสื่อสาร">
+  <title>Gew — Worarit Sunawong</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="กลับไปหน้าแรก"><span class="brand-mark">G.</span><span data-name="shortName">GEW SUNAWONG</span></a>
+    <nav aria-label="เมนูหลัก"><a href="#about">ABOUT</a><a href="#skills">SKILLS</a><a href="#work">EXPERIENCE</a><a href="#contact">CONTACT</a></nav>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="สลับธีม">◐ <span>THEME</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span><span data-text="status">ICT STUDENT · YEAR 2 · BANGKOK</span></p>
+        <h1><span class="h1-small">HELLO, I'M</span><span data-text="name">WORARIT</span><span class="surname" data-text="surname">SUNAWONG<span class="accent">.</span></span></h1>
+        <p class="nickname" data-text="nickname">หรือเรียกผมว่า “กิว” ก็ได้ครับ</p>
+        <p class="intro" data-text="intro">ผมชอบเปลี่ยนไอเดียให้เป็นสิ่งที่ใช้งานได้จริง ทำงานตามเป้าหมายอย่างตั้งใจ และค่อย ๆ เรียนรู้เพื่อเติบโตไปเป็น Full-stack Developer และนักธุรกิจ</p>
+        <div class="hero-actions"><a class="button button-primary" href="#work">สำรวจประสบการณ์ <span>↘</span></a><a class="button button-quiet" href="#contact">ติดต่อผม <span>↗</span></a></div>
+        <div class="hero-foot"><span>CREATIVE MINDSET</span><span class="foot-line"></span><span>STRUCTURED BY DESIGN</span></div>
+      </div>
+      <div class="hero-art" aria-label="ภาพกราฟิกตกแต่งสไตล์ไซเบอร์">
+        <div class="art-label label-top">FIG. 01 — PERSONAL PROFILE</div>
+        <div class="sun-disc"><div class="sun-cut"></div></div>
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+        <div class="crosshair cross-a">+</div><div class="crosshair cross-b">+</div>
+        <div class="art-card"><span>STUDENT IDENTITY</span><strong>GW—02</strong><small>LEARN · BUILD · REPEAT</small></div>
+        <div class="art-label label-bottom">LAT 13°45' N&nbsp;&nbsp; / &nbsp;&nbsp;BKK</div>
+        <div class="vertical-note">INDEPENDENT THINKER / FUTURE BUILDER</div>
+      </div>
+      <div class="scroll-cue"><span>SCROLL TO EXPLORE</span><i></i></div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-head"><p class="eyebrow">01 / ABOUT ME</p><span class="section-index">WHO I AM</span></div>
+      <div class="about-grid"><h2 data-text="aboutHeading">คิดให้สร้างสรรค์<br>ลงมือทำอย่างเป็นระบบ<span class="accent">.</span></h2><div class="about-copy"><p data-text="about">ผมชื่อวรฤทธิ์ สุวะวงษ์ (กิว) เป็นนักศึกษาชั้นปีที่ 2 สาขาเทคโนโลยีสารสนเทศและการสื่อสาร มหาวิทยาลัยศรีปทุม กรุงเทพฯ ผมให้ความสำคัญกับการพยายามทำสิ่งต่าง ๆ ให้สำเร็จตามเป้าหมาย พร้อมเปิดรับการเรียนรู้และพัฒนาตัวเองอยู่เสมอ</p><p class="muted">ตอนนี้กำลังต่อยอดความรู้ด้านข้อมูล ระบบคลาวด์ และฐานข้อมูล เพื่อเข้าใกล้เป้าหมายการเป็น Full-stack Programmer และนักธุรกิจในอนาคต</p><div class="traits"><span>CURIOUS BY NATURE</span><span>COMMITTED TO GOALS</span><span>BUILDING STEP BY STEP</span></div></div></div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-head"><p class="eyebrow">02 / TOOLKIT</p><span class="section-index">WHAT I'M LEARNING</span></div>
+      <div class="skills-layout"><h2>กำลังเรียนรู้<br>และลงมือใช้<span class="accent">.</span></h2><div class="skill-list" id="skillList"></div></div>
+      <p class="section-note">รายการทักษะนี้แก้ไขหรือเพิ่มได้จากไฟล์ <code>data/portfolio.json</code></p>
+    </section>
+
+    <section class="experience section" id="work">
+      <div class="section-head"><p class="eyebrow">03 / EXPERIENCE</p><span class="section-index">A STEP IN MY JOURNEY</span></div>
+      <div class="experience-row"><span class="exp-num">01</span><div><p class="eyebrow">WORK EXPERIENCE</p><h2 data-text="jobTitle">SHARP</h2><p class="muted" data-text="jobDescription">ประสบการณ์ทำงาน — รายละเอียดเพิ่มเติมจะเพิ่มในภายหลัง</p></div><span class="exp-arrow">↗</span></div>
+      <div class="project-placeholder"><div class="placeholder-icon">＋</div><div><p class="eyebrow">PROJECTS / CERTIFICATES</p><h3>ผลงานกำลังจะตามมา</h3><p class="muted">พอร์ตนี้เตรียมพื้นที่ไว้สำหรับเพิ่มโปรเจกต์ ใบประกาศนียบัตร และรายละเอียดประสบการณ์เมื่อพร้อม</p></div><span class="tag">UPDATING SOON</span></div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-head"><p class="eyebrow">04 / CONTACT</p><span class="section-index">LET'S CONNECT</span></div>
+      <div class="contact-main"><h2>มีไอเดีย<br>มาคุยกัน<span class="accent">.</span></h2><a class="email-link" data-href="emailHref" href="mailto:kiwifruitsguji@gmail.com"><span data-text="email">kiwifruitsguji@gmail.com</span><b>↗</b></a></div>
+      <div class="socials" id="socials"></div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-mark">G.</span><span data-name="shortName">GEW SUNAWONG</span></a><span>DESIGNED TO GROW · <span id="year"></span></span><a href="#home">BACK TO TOP ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
