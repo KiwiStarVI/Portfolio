@@ -2,14 +2,17 @@
   "name": "WORARIT",
   "surname": "SUNAWONG",
   "shortName": "GEW SUNAWONG",
-  "nickname": "หรือเรียกผมว่า “กิว” ก็ได้ครับ",
   "status": "ICT STUDENT · YEAR 2 · BANGKOK",
   "intro": "ผมชอบเปลี่ยนไอเดียให้เป็นสิ่งที่ใช้งานได้จริง ทำงานตามเป้าหมายอย่างตั้งใจ และค่อย ๆ เรียนรู้เพื่อเติบโตไปเป็น Full-stack Developer และนักธุรกิจ",
-  "aboutHeading": "คิดให้สร้างสรรค์<br>ลงมือทำอย่างเป็นระบบ<span class=\"accent\">.</span>",
-  "about": "ผมชื่อกิว (Worarit Sunawong) เป็นนักศึกษาชั้นปีที่ 2 สาขาเทคโนโลยีสารสนเทศและการสื่อสาร มหาวิทยาลัยศรีปทุม กรุงเทพฯ ผมให้ความสำคัญกับการพยายามทำสิ่งต่าง ๆ ให้สำเร็จตามเป้าหมาย พร้อมเปิดรับการเรียนรู้และพัฒนาตัวเองอยู่เสมอ",
+  "aboutHeading": "รู้จักผม<br>ให้มากขึ้น<span class=\"accent\">.</span>",
+  "about": "Worarit Sunawong เป็นนักศึกษาชั้นปีที่ 2 สาขาเทคโนโลยีสารสนเทศและการสื่อสาร มหาวิทยาลัยศรีปทุม กรุงเทพฯ ให้ความสำคัญกับการพยายามทำสิ่งต่าง ๆ ให้สำเร็จตามเป้าหมาย พร้อมเปิดรับการเรียนรู้และพัฒนาตัวเองอยู่เสมอ",
   "email": "kiwifruitsguji@gmail.com",
   "jobTitle": "SHARP",
   "jobDescription": "ประสบการณ์ทำงาน — รายละเอียดเพิ่มเติมจะเพิ่มในภายหลัง",
+  "projects": [
+    {"name":"Discord Interaction Bot","description":"บอท Discord ที่โต้ตอบกับผู้ใช้ผ่านเซิร์ฟเวอร์ Discord","type":"BOT / AUTOMATION","tags":["Discord","Bot"]},
+    {"name":"Floating Music Display","description":"ตัวแสดงเพลงแบบลอยบนหน้าจอ เพื่อให้ข้อมูลเพลงปรากฏระหว่างใช้งาน","type":"DESKTOP / UI","tags":["Music","Overlay"]}
+  ],
   "skills": [
     {"name":"Data & Reporting","description":"จัดการข้อมูลและสร้างรายงานเพื่อสื่อสารข้อมูลให้เข้าใจง่าย","tags":["Data Studio"]},
     {"name":"Cloud Systems","description":"กำลังเรียนรู้การทำงานและการจัดการระบบบนคลาวด์","tags":["Cloud"]},
