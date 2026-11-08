@@ -89,7 +89,7 @@ function render(data) {
 }
 
 render(defaults);
-fetch("data/portfolio.json")
+fetch("data/portfolio.json?v=2")
   .then((response) => {
     if (!response.ok) throw new Error("Portfolio data unavailable");
     return response.json();
