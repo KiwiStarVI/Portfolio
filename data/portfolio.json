@@ -8,7 +8,7 @@
   "about": "Worarit Sunawong เป็นนักศึกษาชั้นปีที่ 2 สาขาเทคโนโลยีสารสนเทศและการสื่อสาร มหาวิทยาลัยศรีปทุม กรุงเทพฯ ให้ความสำคัญกับการพยายามทำสิ่งต่าง ๆ ให้สำเร็จตามเป้าหมาย พร้อมเปิดรับการเรียนรู้และพัฒนาตัวเองอยู่เสมอ",
   "email": "kiwifruitsguji@gmail.com",
   "jobTitle": "SHARP",
-  "jobDescription": "ประสบการณ์ทำงาน — รายละเอียดเพิ่มเติมจะเพิ่มในภายหลัง",
+  "jobDescription": "เคยทำงานในส่วน Assembly หรือการประกอบชิ้นงานในกระบวนการผลิตของ SHARP",
   "projects": [
     {"name":"Discord Interaction Bot","description":"บอท Discord ที่โต้ตอบกับผู้ใช้ผ่านเซิร์ฟเวอร์ Discord","type":"BOT / AUTOMATION","tags":["Discord","Bot"]},
     {"name":"Floating Music Display","description":"ตัวแสดงเพลงแบบลอยบนหน้าจอ เพื่อให้ข้อมูลเพลงปรากฏระหว่างใช้งาน","type":"DESKTOP / UI","tags":["Music","Overlay"]}
