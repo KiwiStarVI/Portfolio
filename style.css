@@ -90,9 +90,10 @@ footer>span{font-size:9px;color:var(--muted)}
 .hobby-list li span{font:9px 'IBM Plex Mono',monospace;color:var(--pink)}
 .hobby-mark{position:absolute;right:15px;bottom:9px;font-size:60px;line-height:1;color:#ff557914;pointer-events:none}
 .cover-star{left:.58em;top:-.12em;font-size:1.12em;line-height:1;color:var(--acid);text-shadow:0 0 10px #eaff00,0 0 35px #eaff00ad,0 0 68px #eaff005e;transform:rotate(-12deg);-webkit-text-stroke:1px #fff7}
-.cover-star{animation:star-glint 3.4s ease-in-out infinite,star-pulse 2.6s ease-in-out infinite}
+.cover-star{left:.49em;top:.08em;font-size:.62em;line-height:1;color:var(--acid);text-shadow:0 0 12px #eaff00a8,0 0 30px #eaff0070;-webkit-text-stroke:1.5px var(--text);transform:rotate(-8deg);animation:star-pulse 3s ease-in-out infinite}
+.portrait-caption{display:none}
 .sharp-note{max-width:620px;margin:9px 0 0;color:var(--muted);font-size:11px;line-height:1.8}
-@keyframes star-pulse{0%,100%{filter:drop-shadow(0 0 1px #eaff00)}50%{filter:drop-shadow(0 0 12px #eaff00)}}
+@keyframes star-pulse{0%,100%{scale:1;filter:drop-shadow(0 0 4px #eaff0080)}50%{scale:1.04;filter:drop-shadow(0 0 10px #eaff00)}}
 @keyframes star-glint{0%,100%{scale:.9;rotate:-7deg;opacity:.7}50%{scale:1.13;rotate:9deg;opacity:1}}
 @keyframes halo-breathe{0%,100%{scale:.96;opacity:.75}50%{scale:1.04;opacity:1}}
 @media(max-width:720px){
